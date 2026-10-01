@@ -1,0 +1,27 @@
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+myvirt/
+venv/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+
+# Temporary files
+*.wav
+*.mp3
+*.m4a
+*.tmp
+
+# Whisper/cache
+.cache/
